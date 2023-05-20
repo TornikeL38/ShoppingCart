@@ -13,7 +13,7 @@ body{
     align-items: center;
     background-color: white;
     margin: 0 auto;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     height: 148px;
 }
 .price{
@@ -37,4 +37,58 @@ body{
 }
 .divForText{
     margin-left: 20px;
+}
+.headerWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    background-color: white;
+}
+.fullConteiner{
+    width: 430px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.hederConteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background-color: lightgray;
+}
+.headerConteiner p {
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.footerWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.checkOut{
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 110px;
+    width: 200px;
+    height: 36px;
+    background-color: #393939;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.footerConteiner{
+    background-color: lightgray;
+    /* height: 230px; */
+    
 }
